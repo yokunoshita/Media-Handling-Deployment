@@ -8,8 +8,13 @@ https://expressjs-development-490b.up.railway.app
 https://expressjs-production-2d44.up.railway.app
 
 # Endpoint
-Create : '/upload'
-List   : '/index'
-Detail : '/show/:id'
-Update : '/update/:id'
-Delete : '/delete/:id'
+# post 'api/img/upload'
+to create new data
+# get 'api/img/index'
+to fetch all data
+# get 'api/img/show/:id' 
+to fetch a data based on id
+# put 'api/img/update/:id' 
+to update data
+# delete 'api/img/delete/:id' 
+to delete data

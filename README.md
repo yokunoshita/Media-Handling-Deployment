@@ -13,17 +13,17 @@ This project demonstrates media handling with Express.js, Multer, and ImageKit.i
 * Enhanced scalability and security for production environments.
 
 ## Development
-**Development :** https://expressjs-development-490b.up.railway.app
-**Production :** https://expressjs-production-2d44.up.railway.app
+* **Development :** https://expressjs-development-490b.up.railway.app
+* **Production :** https://expressjs-production-2d44.up.railway.app
 
 ## API Endpoints
-**Create:**
+* **Create:**
 POST /api/img/upload - Upload a new image.
-**Retrieve All:**
+* **Retrieve All:**
 GET /api/img/index - Fetch all uploaded images.
-**Retrieve by ID:**
+* **Retrieve by ID:**
 GET /api/img/show/:id - Fetch a specific image by its ID.
-**Update:**
+* **Update:**
 PUT /api/img/update/:id - Update an existing image.
-**Delete:**
+* **Delete:**
 DELETE /api/img/delete/:id - Delete an image by its ID.
